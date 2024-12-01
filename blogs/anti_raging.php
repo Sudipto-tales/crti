@@ -48,10 +48,10 @@
                 <div class="nav-menus-wrapper align-to-right">
 
                     <ul class="nav-menu">
-                        <li><a href="home">HOME</a>
+                        <li><a href="index.html">HOME</a>
 
                         </li>
-                        <li><a href="about">ABOUT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
                         <li>
                             <a href="#">ACADEMIC</a>
                             <ul class="nav-dropdown xs-icon-menu">
@@ -65,7 +65,7 @@
                         <li><a href="blogs">BLOG</a>
                         </li>
                         <li>
-                            <a href="contact_us.html">CONTACTS</a>
+                            <a href="contact_us">CONTACTS</a>
                         </li>
                     </ul>
                     <ul class="xs-menu-tools">
