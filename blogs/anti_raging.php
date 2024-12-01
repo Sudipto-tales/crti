@@ -11,31 +11,73 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRoboto:400,500,700,900%7CPlayfair+Display:400,700,700i,900,900i%7CWork+Sans:400,500,600,700"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/signatra-font.css">
+    <link rel="stylesheet" href="assets/css/signatra-font.css">
     <link rel="icon" type="image/png" href="favicon.html">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.html">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/animate.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/iconfont.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/swiper.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/rev-settings.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/rev-settings.css">
 
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
 
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
 <body>
     <!-- Header -->
 
-    <?php $this->load->view("panel_base/sections/header1.php"); ?>
+    
+    <header class="xs-header header-transparent nav-lights">
+        <div class="container">
+            <nav class="xs-menus clearfix">
+                <!-- <div class="nav-header">
+                    <a class="nav-brand" href="index.html">
+                        <img src="assets/images/crti_logo-removebg.png" alt>
+                    </a>
+                    <div class="nav-toggle"></div>
+                </div> -->
+                <div class="nav-menus-wrapper align-to-right">
+
+                    <ul class="nav-menu">
+                        <li><a href="home">HOME</a>
+
+                        </li>
+                        <li><a href="about">ABOUT</a></li>
+                        <li>
+                            <a href="#">ACADEMIC</a>
+                            <ul class="nav-dropdown xs-icon-menu">
+                                <li class="single-menu-item"><a href="cource"><i class="icon icon-presentation2"></i> Cources</a></li>
+                                <li class="single-menu-item"><a href="digital_library"><i class="icon icon-presentation"></i> Digital Laboratory</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="faculty">FACULTIES</a>
+
+                        </li>
+                        <li><a href="blogs">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact_us.html">CONTACTS</a>
+                        </li>
+                    </ul>
+                    <ul class="xs-menu-tools">
+
+                        <li>
+                            <a href="#" class="navSidebar-button"><i class="icon icon-burger-menu"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
 
 
@@ -45,7 +87,7 @@
                 <div class="col-md-8 mx-auto">
                     <div class="blog-single-post">
                         <div class="post-media">
-                            <img src="<?php echo base_url() ?>assets/images/blog/1-Anit-Ragging.jpg" alt>
+                            <img src="assets/images/blog/1-Anit-Ragging.jpg" alt>
                         </div>
                         <div class="post-body">
                             <div class="entry-header">
@@ -122,7 +164,7 @@
                         <h4>Author.</h4>
                         <div class="author-info clearfix">
                             <div class="autho-img">
-                                <img src="<?php echo base_url() ?>assets/images/default_logo.jpg" alt>
+                                <img src="assets/images/default_logo.jpg" alt>
                             </div>
                             <div class="author-details">
                                 <h5>Unknown <a href="#"><span
@@ -202,36 +244,36 @@
 
     <!-- Script js -->
     <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery-3.2.1.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/plugins.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/Popper.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/owl.carousel.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/scrollax.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.waypoints.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/isotope.pkgd.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/Popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/scrollax.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyDeZubzJTQgtjreqsdaGMGXxaxP-pv6pSk"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.easypiechart.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/delighters.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/typed.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.parallax.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.themepunch.tools.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/skrollr.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/shuffle-letters.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/main.js"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/delighters.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/jquery.parallax.js"></script>
+    <script src="assets/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="assets/js/shuffle-letters.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <script>
         function myMap() {
