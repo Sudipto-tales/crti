@@ -35,32 +35,31 @@
 <body>
     <!-- Header -->
 
-    
-    <header class="xs-header header-transparent nav-lights">
+    <header class="xs-header header-transparent header-style2 position-static">
         <div class="container">
             <nav class="xs-menus clearfix">
-                <!-- <div class="nav-header">
-                    <a class="nav-brand" href="index.html">
-                        <img src="assets/images/crti_logo-removebg.png" alt>
-                    </a>
+                <div class="nav-header">
+                    
                     <div class="nav-toggle"></div>
-                </div> -->
+                </div>
                 <div class="nav-menus-wrapper align-to-right">
-
+    
                     <ul class="nav-menu">
                         <li><a href="index.html">HOME</a>
-
+    
                         </li>
                         <li><a href="about.html">ABOUT</a></li>
                         <li>
-                            <a href="#">ACADEMIC</a>
+                            <a href="comming_soon.html">ACADEMIC</a>
                             <ul class="nav-dropdown xs-icon-menu">
-                                <li class="single-menu-item"><a href="cource"><i class="icon icon-presentation2"></i> Cources</a></li>
-                                <li class="single-menu-item"><a href="digital_library"><i class="icon icon-presentation"></i> Digital Laboratory</a></li>
+                                <li class="single-menu-item"><a href="cource.html"><i
+                                            class="icon icon-presentation2"></i> Cources</a></li>
+                                <li class="single-menu-item"><a href="digital_library.html"><i
+                                            class="icon icon-presentation"></i> Digital Laboratory</a></li>
                             </ul>
                         </li>
-                        <li><a href="errors/comming_soon.html">FACULTIES</a>
-
+                        <li><a href="comming_soon.html">FACULTIES</a>
+    
                         </li>
                         <li><a href="blogs.html">BLOG</a>
                         </li>
@@ -69,7 +68,7 @@
                         </li>
                     </ul>
                     <ul class="xs-menu-tools">
-
+                        
                         <li>
                             <a href="#" class="navSidebar-button"><i class="icon icon-burger-menu"></i></a>
                         </li>
@@ -239,8 +238,75 @@
 
 
 
-
-    <?php $this->load->view("panel_base/sections/footer.php"); ?>
+        <footer class="xs-footer-section footer-style5" data-delighter="start:0.80">
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-widget">
+                                <div class="footer-logo-wraper">
+                                    <a href="index.html" class="footer-logo">
+                                        <img src="assets/images/logo/20240409_153448_0000.png" alt>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="footer-widget">
+                                <h4 class="widget-title">Pages</h4>
+                                <ul class="xs-list">
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="contact_us.html">Contact Us</a></li>
+                                    <li><a href="errors/comming_soon.html">Blogs</a></li>
+                                    <li><a href="errors/comming_soon.html">Teachers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="footer-widget">
+                                <h4 class="widget-title">Special Features</h4>
+                                <ul class="xs-list">
+                                    <li><a href="digital_library.html">Digital Lirary</a></li>
+                                    <li><a href="documents.html">Exam Document</a></li>
+                                    <li><a href="documents/qn_paper.html">Privious Question Paper</a></li>
+                                    <li><a href="#">Project</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                            <div class="footer-widget">
+                                <h4 class="widget-title">Social Media</h4>
+                                <ul class="xs-list">
+                                    <li><a href="https://www.facebook.com/bardhamancrti/">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-widget">
+                                <h4 class="widget-title">Get Updates</h4>
+                                <form action="#" method="POST" class="subscribe-form subscribe-from-style3">
+                                    <label for="sub-input2"></label>
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="sub-input2"
+                                            placeholder="Enter your mail here..." class="form-control">
+                                        <button class="sub-btn" type="submit"><i class="icon icon-right-arrow"></i></button>
+                                    </div>
+                                </form>
+                                <div class="copyright-text">
+                                    <script>document.write(new Date().getFULLYEAR())</script><p> - crafted by </p><a href="#" target="_blank">SAD.</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-shape">
+                <img src="assets/images/footer-wave-shape.png" alt>
+            </div>
+        </footer>
+    
 
     <!-- Script js -->
     <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
