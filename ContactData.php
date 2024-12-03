@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 				'PH_No' => $_POST['phonenumber'], 
 				'Email' => $_POST['email'], 
 				'Subject' => $_POST['subject'], 
-				'Massege' => $_POST['massage']
+				'Massege' => $_POST['massage'],
 			); 
 			$array_data[]=$extra; //store array
 			echo "file exist<br/>"; 
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 				'PH_No' => $_POST['phonenumber'], 
 				'Email' => $_POST['email'], 
 				'Subject' => $_POST['subject'], 
-				'Massege' => $_POST['massage']
+				'Massege' => $_POST['massage'],
 			); 
 			echo "file not exist<br/>"; 
 			return json_encode($datae); 

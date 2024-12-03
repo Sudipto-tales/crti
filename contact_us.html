@@ -198,7 +198,7 @@
                 <div class="row">
                     <div class="col-md-8 mx-auto">
                         <div class="from-wraper">
-                            <form action="ContactData.php" class="contact-form style2"
+                            <form id="dataForm" action="ContactData.php" class="contact-form style2"
                                  method="POST">
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -225,7 +225,7 @@
                                 <textarea name="massage" id="massage" placeholder="Your Message... *"
                                     class="form-control" cols="30" rows="10"></textarea>
                                 <div class="btn-wraper">
-                                    <input type="submit" class="btn btn-primary" value="Submit">
+                                    <input type="submit" class="btn btn-primary" value="Submit" onclick="on_submit()">
                                 </div>
                             </form>
                         </div>
@@ -340,6 +340,7 @@
     <script src="assets/js/skrollr.min.js"></script>
     <script src="assets/js/shuffle-letters.js"></script>
     <script src="assets/js/main.js"></script>
+    
 
 
 </body>
